@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  box-sizing: none;
+}
+.App {
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+}
+
+.navbarcss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height:5rem;
+  background-color: rgb(18, 11, 46);
+}
+.navbarcss:active {
+  color: rgb(18, 11, 46);
+}
+.mid{
+  width: 10rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mid > a{
+  color: #fff;
+  text-decoration: none;
+}
+.mid >a:hover{
+  color: #ded5d5;
+}
+.brand {
+  padding-left: 2rem;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+  color: #fff ;
+  font-size: 2rem;
+}
+.brand >a{
+  color: #fff;
+  text-decoration: none;
+}
+.brand a:hover {
+ color: #ded5d5;}
+
+.brand a:hover {
+  text-decoration: none;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+.filter{
+  margin-bottom: 2rem;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-around;
+  flex-wrap: wrap;
+ list-style-type: none;
+  
+}
+.product{
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+.product-img {
+  height: 10rem;
+  width: 10rem;
+}
+.description{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.rate{
+  font-size: 1.2rem;
+}
+.btngetstarted {
+  border-radius: 5px;
+  border-style: none;
+  width: 8rem;
+  height: 2.2rem;
+  color: white;
+  background-color: rgb(108, 42, 139);
+}
+
+.btngetstarted:hover {
+  background-color: rgb(134, 82, 158);
+}
+
+
+p {
+  padding-bottom: 10%;
+}
+
+.btnsubmit {
+  border-radius: 5px;
+  border-style: none;
+  width: 23.5rem;
+  height: 3rem;
+  color: white;
+  background-color: rgb(108, 42, 139);
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.btnsubmit a {
+  padding: 10%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btnsubmit a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
